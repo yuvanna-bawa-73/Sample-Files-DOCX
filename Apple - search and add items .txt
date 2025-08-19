@@ -1,0 +1,68 @@
+﻿Product Requirement Document
+Feature Title: Search & Add Items to Cart
+Document Version: 4.3
+Feature Overview
+The purpose of this feature is to enhance the user experience on Apple.com by enabling
+seamless product discovery, customization, and cart management. This feature will allow users
+to:
+1. 2. 3. 4. 5. Search for specific products using the search bar.
+Navigate to products through the homepage or navigation menu.
+Customize products based on available options.
+Add one or multiple items to their cart.
+Review the contents of their cart (“Review Bag”), including all customizations, pricing
+details, and checkout options.
+Key Functional Requirements
+1. Search for a Product
+● A search bar is prominently placed at the top of the website.
+● Users can type the name of the product (e.g.,
+results.
+"AirPods 4") and receive relevant search
+● Search results should include product images, names, brief descriptions, and prices.
+2. Navigate to a Product
+● Products should be accessible through the homepage or category-based navigation
+menu (e.g.,
+"iPhone,
+" "AirPods").
+● Clicking a category navigates to a product listing page with filters for variant, price, and
+popularity.
+3. Customize a Product
+● Users can select various customization options, such as:
+○ AirPods:■ Model: AirPods 4, AirPods Pro 2
+■ ANC: With/Without Active Noise Cancellation
+■ Engraving: With/Without personalized engraving
+○ iPhones:
+■ Models: iPhone 14, iPhone 15, iPhone 15 Plus, iPhone 16
+■ Colors: Yellow, Green, Pink, Black
+■ Storage: 128GB, 256GB, 512GB
+■ Coverage: AppleCare+
+, No Coverage
+■ Trade-In: With/Without Trade-In
+● Dynamic UI updates to reflect price changes based on customization.
+4. Add Item to Cart
+● A visible “Add to Bag” button after customizing a product.
+● Confirmation modal after adding an item, showing the item name, selected
+customizations, and subtotal.
+5. Add Multiple Items to Cart
+● Users can add one product to the cart, navigate back, and add another product
+seamlessly.
+● Cart icon updates dynamically to reflect the number of items in the bag.
+6. Review Cart ("Review Bag")
+● Clicking the cart icon displays a “Review Bag” option.
+● The “Review Bag” page shows:
+○ All items in the cart with selected customizations.
+○ Pricing details: Subtotal, shipping, taxes.
+○ A ZIP code input for shipping estimates.
+○ A “Checkout” button.
+
+
+
+
+
+
+Acceptance Criteria
+● The search functionality returns accurate and relevant results.
+● Navigation and product discovery are intuitive and seamless.
+● Customization selections dynamically update the product details and price.
+● Users can add single or multiple products to the cart without disruptions.
+● "Review Bag" shows accurate details, including pricing and selected customizations.
+● The cart and checkout flow works across browsers and devices.
